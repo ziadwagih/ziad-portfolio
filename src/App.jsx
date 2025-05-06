@@ -10,7 +10,7 @@ import Hero from './components/hero';
 import About from './components/about';
 import Skills from './components/skills';
 import Projects from './components/projects';
-import ProjectDetail from "./components/ProjectDetail";
+//import ProjectDetail from "./components/ProjectDetail";//
 import Contact from './components/contact';
 import Footer from './components/footer';
 
@@ -84,7 +84,7 @@ export default function App() {
               </>
             }
           />
-          <Route path="/projects/:id" element={<ProjectDetail />} />
+            {/*<Route path="/projects/:id" element={<ProjectDetail />} />*/}
         </Routes>
       </main>
     </BrowserRouter>
